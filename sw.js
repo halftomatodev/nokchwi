@@ -1,12 +1,11 @@
 // 앱 파일을 저장해 두고 오프라인에서도 열리게 한다.
 // 캐시에서 바로 보여주고 뒤에서 새 버전을 받아 두므로, 수정한 내용은 다음 실행부터 반영된다.
-const CACHE = 'nokchwi-v1';
+const CACHE = 'nokchwi-v2';
 const FILES = [
   './',
   'index.html',
   'manifest.webmanifest',
   'lib/lame.min.js',
-  'lib/dbx.js',
   'lib/neodgm.woff2',
   'lib/neodgm.woff',
   'tools/transcribe.bat',
